@@ -1,0 +1,59 @@
+.techstack{
+    padding-left: 200px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.techstack h2{
+    color: #48352c;    font-weight:bold ;
+
+    font-family: serif;
+    border-bottom: 2px solid #48352c;
+    text-align: center;
+}
+#dark .techstack h2{
+    color: #b5a887;
+    border-bottom: 2px solid #b5a887;
+}
+
+.techstack p{
+    color: #8e846b;
+    font-family: serif;
+    text-align: center;
+}
+.techstack .card
+{
+    cursor: pointer;
+    
+}
+.techstack .tech-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #48352c;
+
+    
+}
+
+.techstack .card:hover .tech-icon {
+    color: white; /* Change icon color to white on hover */
+}
+.techstack .card:hover{
+    background-color: #48352c;
+    color: #d2d2ac;
+    border: none;
+    transition: 0.5s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/* mobile view */
+@media (max-width: 600px){
+    .techstack{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+     
+    }
+    .techstack p{
+        padding: 10px;
+    }
+}

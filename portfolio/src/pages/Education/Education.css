@@ -1,0 +1,62 @@
+.education h2{
+  color: #48352c;    font-weight:bold ;
+  font-size: 30px;
+    font-family: serif;
+    border-bottom: 2px solid #48352c;
+    text-align: center;
+}
+#dark .education h2{
+  color: #b5a887;
+  border-bottom: 2px solid #b5a887;
+}
+.education p{
+  color: #8e846b;
+  font-family: serif;
+  text-align: center;
+}
+
+
+.education .vertical-timeline-element--work {
+    max-width: 80%; /* Adjust size */
+    margin: 0 auto; /* Center align smaller elements */
+    overflow: hidden;
+  }
+  
+  .education .vertical-timeline-element-content {
+    border-radius: 15px; /* Rounded corners for content */
+    padding: 10px; /* Padding to make it compact */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+      }
+  
+  .education .vertical-timeline-element-date {
+    font-size: 0.9rem; /* Smaller date text */
+    color: #bdb190;
+  }
+  .vertical-timeline.vertical-timeline-custom-line::before {
+    background: #BBA58F;
+  }
+  .education .vertical-timeline-element-title {
+    font-size: 1.2rem; /* Slightly smaller title */
+    color: #e1d3ae;
+    font-weight: bold;
+  }
+  
+  .education .vertical-timeline-element-subtitle {
+    font-size: 1rem; /* Slightly smaller subtitle */
+    color: #e1d3ae;
+  }
+  
+  .education .vertical-timeline-element-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem; /* Adjust icon size */
+  }
+  .education .percentage{
+    color: #e1d3ae;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: -3px;
+  }

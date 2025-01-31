@@ -1,0 +1,108 @@
+.contact{
+    margin-left: 400px;
+    margin-bottom: 100px;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   overflow: hidden;
+   width:60%;
+  
+}
+.card0{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 0px;
+
+}
+.card2{
+    margin: 0px 40px;
+
+}
+.border-line{
+    border-right: #e0e0e0;
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    padding-left: 1px;
+    display: flex;
+}
+
+.or{
+    font-weight: bold;
+
+    width: 10%;
+  display: flex;
+  padding-left: 40px;
+  margin-left: 20px;
+  color: #48352c;
+ 
+}
+::placeholder{
+    color: #48352c;
+    font-weight: 300;
+    opacity: 1;
+    
+}
+input, textarea{
+    padding: 10px 20px;
+    border: 1px solid #48352c;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #48352c;
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+}
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid #48352c !important;
+    outline-width: 0px ;
+}
+.button:focus{
+    box-shadow: none;
+    outline-width: 0px ;
+
+}
+.button{
+    background-color: #6f5942;
+    color: #efefe9;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius:40px;
+}
+.button:hover{
+    background-color:  #efefe9;
+    color: #6f5942;
+}
+.card2 .social-icons {
+    gap: 20px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align vertically */
+    padding-bottom: 15px;
+    }
+  
+ .card2 .social-icons .icon {
+    cursor: pointer; /* Add a pointer cursor for better UX */
+    transition: transform 0.2s; /* Add a hover effect */
+  }
+  
+ .card2 .social-icons .icon:hover {
+    transform: scale(1.2); /* Enlarge icon slightly on hover */
+  }
+  
+  /* mobile view */
+
+@media (max-width:600px){
+    .contact{
+        margin-left: 80px;
+        padding: 0;
+        margin-top: 50px;
+    }
+}

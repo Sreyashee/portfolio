@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+  
+}
+.footer{
+  color: #48352c;
+  font-family: serif;
+}
+#dark{
+  background-color: #2c211b;
+  color:rgb(192, 168, 168) ;
+}
+#dark .footer{
+  color: #E8D9CD;
+}

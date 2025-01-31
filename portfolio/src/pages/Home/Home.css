@@ -1,0 +1,92 @@
+.home-container{
+    height: 300px;
+    color:  #523D33;
+    overflow: hidden;
+    
+}
+
+.home-content h2{
+    padding: 5px;
+    padding-top: 80px;
+    margin-left: 180px;
+}
+.home-content h1{
+    padding: 5px;
+    color: #E8D9CD;
+    margin-left: 180px;
+}
+.home-buttons{
+    margin-left: 180px;
+    display: flex;
+   
+}
+.home-buttons .btn-hire{
+    background-color: #523D33;
+    width: 160px;
+    color: white;
+    margin-right: 20px;
+}
+.home-buttons .btn-hire:hover{
+    background-color: #48352c;
+    width: 200px;
+    color: rgb(203, 197, 197);
+    transition: 0.5s;
+}
+
+.home-buttons .btn-cv{
+    background-color: #523D33;
+    width: 160px;
+    color: white;
+    
+}
+.home-buttons .btn-cv:hover{
+    background-color: #48352c;
+    width: 200px;
+    color: rgb(203, 197, 197);
+    transition: 0.5s;
+   opacity: 80%;
+}
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #48352c;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.theme-btn:hover{
+    background-color: #16100d;
+}
+
+
+/* Mobile view */
+@media (max-width: 600px) {
+    .home-container {
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;; /* Horizontally center items */
+    }
+
+    .home-content h2{
+        padding: 5px;
+        padding-top: 80px;
+        margin-left: 100px;
+    }
+    .home-content h1{
+        padding: 5px;
+        margin-left: 100px;
+    }
+    .home-buttons{
+        padding: 5px;
+        margin-left: 50px; 
+    }
+
+}

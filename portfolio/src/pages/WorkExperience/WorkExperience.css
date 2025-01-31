@@ -1,0 +1,104 @@
+.project{
+    margin-left: 250px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.project h2{
+    color: #48352c;    font-weight:bold ;
+
+    font-family: serif;
+    border-bottom: 2px solid #48352c;
+    text-align: center;
+}
+.project p{
+    color: #8e846b;
+    font-family: serif;
+    text-align: center;
+}
+#ads{
+    
+    margin: 30px;
+    padding: 10px;
+   
+   
+}
+#ads .card-notify-badge{
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    color: #48352c;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #E8D9CD;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.project .card img{
+    height: 150px;
+    width: 100%;
+}
+.project .card-detail-badge{
+    background-color: #efefe9;
+    color: #6f5942;
+    border-radius: 30px 30px 30px 30px;
+    padding: 5px 10px;
+    font-size: 14px;font-weight: bold;
+}
+.project .card-image-overly{
+    font-size: 20px;
+}
+.project .card-image-overly span{
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+.project .card:hover{
+    background-color: #ede6e6;
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: all 0.3s ease;
+}
+.ad-btn{
+    text-transform: uppercase;
+    width: 150px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    background-color: #6f5942;
+    color: #efefe9;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+.ad-btn:hover{
+    background-color: #efefe9;
+    color: #6f5942;
+    background: transparent;
+    border: 2px solid #6f5942;
+    transition: all 0.3s ease;
+
+}
+#dark .project h2{
+    color: #b5a887;
+    border-bottom: 2px solid #b5a887;
+}
+
+/* mobile view */
+
+@media (max-width:600px){
+    .project{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .project .card{
+        margin-top: 20px;
+    }
+}
